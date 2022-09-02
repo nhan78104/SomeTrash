@@ -87,10 +87,6 @@ html {
   cursor: pointer;
 }
 
-#nav .nav-menu-down {
-  font-size: 16px;
-}
-
 #header .subnav-icon {
   display: none;
   position: absolute;
@@ -98,7 +94,23 @@ html {
   right: 0px;
 }
 
-#header .menu-icon,
+#header .menu-icon {
+  line-height: 46px;
+  padding: 0px 24px;
+}
+
+
+#nav .nav-more:hover .menu-down-icon,
+#header .subnav-icon:hover .more-menu {
+  fill: #000000;
+}
+
+.search-icon,
+.menu-down-icon,
+.more-menu {
+  fill: #FFFFFF;
+}
+
 #nav .nav-more {
   display: inline-block;
   padding: 0px 24px;
@@ -116,7 +128,6 @@ html {
   float: right;
 }
 
-#header .menu-icon,
 #header .nav-search {
   line-height: 46px;
   padding: 0px 21px;
