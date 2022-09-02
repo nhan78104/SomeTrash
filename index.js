@@ -1,28 +1,28 @@
-{
-  const buyButtons = document.querySelectorAll('.buy-btn'),
-    modal = document.querySelector('.modal')
-  buyTicketModal = document.querySelector('.buy-ticket-modal')
+// {
+//   const buyButtons = document.querySelectorAll('.buy-btn'),
+//     modal = document.querySelector('.modal')
+//   buyTicketModal = document.querySelector('.buy-ticket-modal')
 
-  buyButtons.forEach((element) => {
-    element.onclick = () => {
-      modal.classList.add('display-flex')
-    }
-  })
+//   buyButtons.forEach((element) => {
+//     element.onclick = () => {
+//       modal.classList.add('display-flex')
+//     }
+//   })
 
-  const closeButton = document.querySelector('.close-btn')
+//   const closeButton = document.querySelector('.close-btn')
 
-  closeButton.onclick = () => {
-    modal.classList.remove('display-flex')
-  }
+//   closeButton.onclick = () => {
+//     modal.classList.remove('display-flex')
+//   }
 
-  modal.onclick = () => {
-    modal.classList.remove('display-flex')
-  }
+//   modal.onclick = () => {
+//     modal.classList.remove('display-flex')
+//   }
 
-  buyTicketModal.addEventListener('click', (event) => {
-    event.stopPropagation()
-  })
-}
+//   buyTicketModal.addEventListener('click', (event) => {
+//     event.stopPropagation()
+//   })
+// }
 
 {
   const subMenu = document.querySelector('.subnav')
