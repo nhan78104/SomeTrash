@@ -2,6 +2,33 @@
   #nav .nav-more:hover .subnav {
     display: block;
   }
+
+  .row {
+    margin: 0px -8px;
+  }
+  
+  .row::after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .col {
+    float: left;
+    padding: 0px 8px;
+  }
+  
+  .col-third {
+    width: 33.33333%;
+  }
+  
+  .col-half {
+    width: 50%;
+  }
+  
+  .col-full {
+    width: 100%;
+  }
 }
 
 @media (max-width: 739px) {
@@ -56,5 +83,18 @@
 
   #header .subnav-icon:hover .menu-icon {
     color: #000;
+  }
+
+  #content .member-img {
+    width: 205px;
+    margin-bottom: 31px;
+  }
+
+  .col {
+    padding-bottom: 16px;
+  }
+
+  .content-section .form-message {
+    padding-top: 0px;
   }
 }
